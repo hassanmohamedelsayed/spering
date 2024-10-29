@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    /*height: 95vh;*/
+    z-index: 1;
+
+}
+header div{
+    height: 95vh;
+    display: inline-block;
+}
+header .left{
+    width: 55%;
+    background-color: #1a2e35;
+}
+header .right{
+    width: 45%;
+    background-color: #1cbbb4;
+    margin-left: -4px;
+    background-image: url("../uploads/slider-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header .logo,header span{
+position: absolute;
+top: 5px;
+left: 5px;
+font-size: 35px;
+font-weight: bolder;
+color: white;
+}
+header span{
+    left: 77px;
+    top: 5px;
+}
+.btns{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 80px;
+}
+.btns button{
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #1cbbb4;
+    border: none;
+}
+.btns button:hover{
+    background-color: red;
+}
+.btns button img{
+    width: 45%;
+    height: 45%;
+}
+.left .content{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.left .content h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.left .content .btns{
+    position: absolute;
+    top: 235px;
+}
+.left .content .btns .btn-about{
+    float: left;
+    border-radius: 0px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    width: 200px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+} 
+.left .content .btns .btn-quote{
+    border-radius: 0px;
+    padding: 10px 10px;
+    margin-left: 5px;
+    width: 200px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+}
+.btn-about{
+color: white;
+background-color: #ff4f5a !important;
+}
+.btn-about:hover{
+    color: tomato;
+background-color: rgba(255, 255, 255, 0.087) !important;
+
+}
+.btn-quote{
+    color: black !important;
+    background-color: white !important;
+    }
+.btn-quote:hover{
+        color: white !important;
+    background-color: rgba(255, 255, 255, 0.087) !important;
+    border-radius: 1px solid white;
+    }
+    .about{
+        position: relative;
+        height: 80vh;
+    z-index: 0;
+    
+    }
+    .about div{
+        display: inline-block;
+        float: left;
+        
+    }
+.about-right{
+     width: 55%;
+     height: 80vh;
+     
+
+}
+.about-left{
+width: 45%;
+height: 80vh;
+background-image: url("../uploads/experience-img.jpg");
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.about-right .content{
+    position: absolute;
+    top: 32%;
+    right: 8%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.about-right .content h1{
+    font-size: 30px;
+font-weight: 900;
+
+}
+
+.about-right .content .hassan .rea{
+position: absolute;
+    width: 200px;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin-left: 40px;
+    width: 180px;
+    text-transform: capitalize;
+    top: 235px;
+    color: white;
+background-color: #ff4f5a !important;
+}
+.about-right .content .hassan .rea:hover{
+    color: #ff4f5a;
+background-color:  white!important;
+}
+.about-right .content .hassan .bth{
+    position: absolute;
+    width: 200px;
+    border-radius: 0px;
+    padding: 10px 40px;
+    margin-left: 250px;
+    width: 180px;
+    text-transform: capitalize;
+    top: 235px;
+    color: white!important;
+    background-color: black;
+}
+.about-right .content .hassan .bth:hover{
+    background-color: rgba(255, 255, 255, 0.087) !important;
+color: black !important;
+border: 1px solid black;
+}
+.category{
+    position: relative;
+    height: 80vh;
+background-color: #1cbbb4;
+color: white;
+font-family: sans-serif;
+text-transform: capitalize;
+text-align: center;
+padding: 10px;
+}
+.category .title h1{
+    position: absolute;
+    font-weight: 900;
+border-bottom: 3px solid yellow;
+padding-bottom: 10px;
+left: 50%;
+
+}
+.categories .cat{
+    width: 33%;
+    display: inline-block;
+    margin-top: 110px;
+    font-size: 25px;
+    font-style: italic;
+
+}
+.about-hassan{
+    height: 130vh;
+    width: 100%;
+}
+.about-hassan .vtn{
+    position: relative;
+    top: 80px;
+ height: 90vh;
+ width: 60%;
+ background-image: url("../uploads/about-img.jpg");
+ background-position: center;
+background-repeat: no-repeat;
+margin-left: 300px;
+}
+.about-hassan .cr7{
+    text-align: center;
+}
+.about-hassan .cr7 h7{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+.about-hassan p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+
+    
+}
+.about-hassan .cr7 .mo .read{
+    display: inline-block;
+    background-color: #ff4f5a;
+    text-align: center;
+    width: 200px;
+    border-radius: 0px;
+    padding: 20px 60px;
+    text-transform: capitalize;
+    top: 235px;
+    margin-top: 40px;
+    border: 1px solid #ff4f5a;
+}
+.about-hassan .cr7 .mo .read:hover{
+    background-color: white;
+    color: #ff4f5a;
+}
+.works{
+height: 100vh;
+width: 100%;
+display: inline-block;
+
+}
+.works div{
+    height: 95;
+    display: inline-block;
+}
+.works .right-pic{
+    width: 60%;
+    height: 100vh;
+    background-image: url("../uploads/freelance-img.jpg");
+    background-position: center;
+    float: right;
+
+}
+.works .left-wor{
+ width: 40%;
+ height: 100vh;   
+}
+.works .left-wor .tex{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.works .im{
+    width: 72px;
+    height: 75px;
+    background-color: #1cbbb4;
+    margin-left: -387px;
+    margin-top: 100px;
+    border-radius: 100%;
+    padding: 10px 21px;
+}
+.works tex h1{
+    margin-left: 150px;
+    font-size: 15px;
+
+}
+.works .tex h2{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: #ff4f5a;
+    
+}
+.works .tex p{
+    margin-left: 200px;
+}
+
+    
+
+
+
+
+
+
